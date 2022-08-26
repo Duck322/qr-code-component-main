@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cookie&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <style>
+      body {
+        background-color: #d6e2f0;
+      }
+      .container {
+        display: grid;
+        margin: 38%;
+        border-radius: 15px;
+        margin-top: 7%;
+        background-color: #ffffff;
+      }
+
+      @media screen and (min-width: 900px) and (max-width: 1100px) {
+        .container {
+          display: grid;
+          margin: 28%;
+          background-color: #ffffff;
+        }
+      }
+
+      @media screen and (max-width: 900px) {
+        .container {
+          display: grid;
+          margin: 18%;
+          background-color: #ffffff;
+        }
+      }
+
+      .qrcode {
+        padding: 5%;
+        width: 90%;
+        height: 90%;
+        border-radius: 30px;
+      }
+
+      h2 {
+        display: flex;
+        justify-content: center;
+        color: #1f3251;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+      }
+
+      p {
+        display: flex;
+        justify-content: center;
+        color: #7b879d;
+        font-family: "Outfit", sans-serif;
+        text-align: center;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        padding-bottom: 2%;
+      }
+      .attribution a {
+        color: #3e52a3;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div>
+        <img
+          src="./images/image-qr-code.png"
+          alt="QR code to Frontend Mentor"
+          class="qrcode"
+        />
+      </div>
+      <div>
+        <h2>Improve your front-end <br />skills by building projects</h2>
+
+        <p>
+          Scan the QR code to visit Frontend <br />Mentor and take your coding
+          skills to <br />
+          the next level!
+        </p>
+      </div>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor</a
+      >
+      Coded by <a href="#">Jeremy</a>
+    </footer>
+  </body>
+</html>
